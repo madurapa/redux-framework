@@ -176,7 +176,7 @@ if ( ! class_exists( 'Redux_Enqueue', false ) ) {
 			/**
 			 * Spectrum CSS
 			 */
-			wp_register_style(
+			wp_enqueue_style(
 				'redux-spectrum-css',
 				Redux_Core::$url . "assets/css/vendor/spectrum$this->min.css",
 				array(),
